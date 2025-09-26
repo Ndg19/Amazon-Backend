@@ -1,6 +1,5 @@
 node_modules/
 *.local
-.env
-.env
-.env
+
 Amazon-Clone-Backup/
+.env
