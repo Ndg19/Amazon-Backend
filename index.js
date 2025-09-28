@@ -1,4 +1,3 @@
-// index.js
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
@@ -11,7 +10,7 @@ app.use(express.json());
 
 // Root route
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Server is running!" });
+  res.status(200).json({ message: "Sucess!" });
 });
 
 // Stripe payment route
